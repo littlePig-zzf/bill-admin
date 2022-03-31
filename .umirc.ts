@@ -14,6 +14,11 @@ export default defineConfig({
       component: '@/layouts/BasicLayout',
       routes: [
         { path: '/', name: '账单列表', component: '@/pages/billList/index' },
+        {
+          path: '/statistics',
+          name: '账单统计',
+          component: '@/pages/billStatistics/index',
+        },
       ],
     },
   ],
